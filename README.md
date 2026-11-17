@@ -1,14 +1,14 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.png" />
-  <source media="(prefers-color-scheme: light)" srcset="assets/header-light.png" />
-  <img alt="“The future is something you create yourself. You have to believe in it.” — Sailor Mercury (Ami Mizuno), Sailor Moon" src="assets/header-dark.png" width="100%" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-quote-dark.png" />
+  <source media="(prefers-color-scheme: light)" srcset="assets/banner-quote-light.png" />
+  <img alt="“The future is something you create yourself. You have to believe in it.” — Sailor Mercury (Ami Mizuno), Sailor Moon" src="assets/banner-quote-dark.png" width="100%" />
 </picture>
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=600&size=40&duration=3200&pause=900&color=F7A8C8&center=true&vCenter=true&width=700&height=70&lines=hi%2C+I'm+Jimena+Roman;fueled+by+matcha+%2B+blueberry+bagels;soft+colors%2C+strong+code;creating+my+own+future" />
-    <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=600&size=40&duration=3200&pause=900&color=D9709F&center=true&vCenter=true&width=700&height=70&lines=hi%2C+I'm+Jimena+Roman;fueled+by+matcha+%2B+blueberry+bagels;soft+colors%2C+strong+code;creating+my+own+future" />
-    <img alt="hi, I'm Jimena Roman" src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=600&size=40&duration=3200&pause=900&color=F7A8C8&center=true&vCenter=true&width=700&height=70&lines=hi%2C+I'm+Jimena+Roman" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=600&size=30&duration=3200&pause=900&color=F7A8C8&center=true&vCenter=true&width=800&height=60&lines=hi%2C+I'm+Jimena+Roman;building+a+future;practicing+LeetCode;running+by+the+Point;learning+system+design;studying+for+an+exam;planning+a+hike;enjoying+a+bagel" />
+    <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=600&size=30&duration=3200&pause=900&color=D9709F&center=true&vCenter=true&width=800&height=60&lines=hi%2C+I'm+Jimena+Roman;building+a+future;practicing+LeetCode;running+by+the+Point;learning+system+design;studying+for+an+exam;planning+a+hike;enjoying+a+bagel" />
+    <img alt="hi, I'm Jimena Roman" src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=600&size=30&duration=3200&pause=900&color=F7A8C8&center=true&vCenter=true&width=800&height=60&lines=hi%2C+I'm+Jimena+Roman" />
   </picture>
 
   <p>
