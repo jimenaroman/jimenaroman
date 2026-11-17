@@ -1,0 +1,33 @@
+# Draws a pastel snake eating your contribution graph once a day and
+# publishes it to the `output` branch, which the README points at.
+name: Pastel snake
+
+on:
+  schedule:
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  snake:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          # Squares go from baby blue (few contributions) to pink (lots).
+          outputs: |
+            dist/snake-dark.svg?palette=github-dark&color_snake=#A8D8F7&color_dots=#161b22,#33405a,#6f7fb0,#c9a3d9,#f7a8c8
+            dist/snake-light.svg?color_snake=#7FB8E6&color_dots=#ebedf0,#d4ebfb,#b3d8f4,#f2bcd6,#e88ab4
+
+      - uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
